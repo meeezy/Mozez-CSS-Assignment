@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans&display=swap');
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1a1a1a;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+        .card h2 {
+            background: #ff0080;
+            color: black;
+            padding: 10px;
+            margin: 0 auto;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 6px;
+            font-size: 18px;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+            width: 80%;
+        }

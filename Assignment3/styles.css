@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: #b3b0d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.card {
+    background: white;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: 350px;
+    height: 50%;
+}
+img{
+    width: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content {
+    padding: 20px;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 0.9rem;
+    color: gray;
+}
+.text {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
+.badge {
+    position: absolute;
+    background: #FDF1B5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    top: 10px;
+    left: -10px;
+}
+.image-container {
+    position: relative;
+}
